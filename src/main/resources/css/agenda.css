@@ -1,0 +1,184 @@
+body{
+    background-image: url("papierpeint.jpg");
+}
+
+.greet{
+    width: 50%;
+    margin-left:20%;
+    margin-top: 100px;
+    background-image: url("time.jpg");
+    text-align:center;
+    padding:100px;
+    color: white;
+    font-size: 50px;
+    font-style: oblique;
+    text-shadow: 0px 0px 0 #899CD5, 1px 1px 0 #8194CD, 2px 2px 0 #788BC4, 3px 3px 0 #6F82BB,
+    4px 4px 0 #677AB3, 5px 5px 0 #5E71AA, 6px 6px 0 #5568A1, 7px 7px 0 #4C5F98, 8px 8px 0 #445790,
+    9px 9px 0 #3B4E87, 10px 10px 0 #32457E, 11px 11px 0 #2A3D76, 12px 12px 0 #21346D, 13px 13px 0 #182B64,
+    14px 14px 0 #0F225B, 15px 15px 0 #071A53, 16px 16px 0 #02114A, 17px 17px 0 #0B0841, 18px 18px 0 #130039,
+    19px 19px 0 #1C0930, 20px 20px 0 #251227, 21px 21px 20px rgba(0,0,0,1), 21px 21px 1px rgba(0,0,0,0.5),
+    0px 0px 20px rgba(0,0,0,.2);
+}
+
+.divch{
+    font-size: 16px;
+    background-color: white;
+    padding: 25px;
+    color: #342371;
+    text-shadow:none;
+    text-align: center;
+}
+
+.divch h3{
+    margin-left:0px;
+}
+.divm{
+    width: 50%;
+    margin-left:20%;
+    background-color: white;
+    min-height: 400px;
+    box-shadow:0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.mform{
+    width: 50%;
+    margin-left:20%;
+    background-color: white;
+    box-shadow:0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+    padding: 15px;
+}
+
+form label {
+    float: left;
+    width: 30%;
+    margin-left: 10px;
+}
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+    background-color: #F5F5F5;
+    width: 150px;
+}
+.button{
+    width: 70px;
+    border-radius: 3px;
+    background-color: #b3c6d4;
+}
+
+h1{
+    margin-left:20%;
+    color:white;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+.clndr{
+    position: fixed;
+    right: 15%;
+    top: 10%;
+    text-align: center;
+    background:white;
+    width: 12%;
+    box-shadow:0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+.clndr table{
+    width: 100%;
+    border: none;
+}
+.clndr th,.clndr  td{
+    border: none;
+}
+.year{
+    color: #444444;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.month{
+    color: #00009a;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow:  0px 1px 1px #191970;
+}
+
+.arrow{
+    width:1.5vw;
+    margin-left: 8px;
+    margin-right:8px;
+}
+
+.cross{
+    width:1.5vw;
+    border:none;
+}
+
+.btn{
+    width:100px;
+    color: #8299ab;
+    background: #b3c6d4;
+    text-shadow: #e0e0e0 1px 1px 0;
+    color: #8299ab;
+    background: #b3c6d4;
+    border-radius: 4px;
+    margin-left:5px;
+}
+
+.author{
+    color: #8299ab;
+}
+
+.frm{
+    margin-left:10%;
+}
+
+h3{
+    margin-left:10%;
+    color: #00009a;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+    text-shadow:  0px 1px 1px #191970;
+}
+
+.frm th{
+    color: #8299ab;
+}
+
+.lut table,.lut td,.lut th{
+    border: 1px solid #8299ab;
+}
+.lut td{
+    width: 10%;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.pasdactions{
+    padding: 15px;
+    margin-left:10%;
+}
+
+.bouton{
+    margin-left:10%;
+}
+
+.home{
+    position:absolute;
+    right:3px;
+    top:3px;
+}
